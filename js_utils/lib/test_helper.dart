@@ -15,3 +15,7 @@ class WithIntValue {
 
   external factory WithIntValue({int value});
 }
+
+void doStuff() {
+  var withIntValue = WithIntValue();
+}
