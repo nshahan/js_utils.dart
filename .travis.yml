@@ -6,15 +6,9 @@ addons:
 
 jobs:
   include:
-    - stage: stable
-      script: dart ./tool/travis.dart
-      dart: stable
     - stage: beta
       script: dart ./tool/travis.dart
       dart: beta
-    - stage: dev
-      script: dart ./tool/travis.dart
-      dart: dev
 
 stages:
   # - stable
