@@ -1,4 +1,4 @@
-import 'package:js/js_util.dart';
+/*import 'package:js/js_util.dart';
 import 'package:tekartik_js_utils/js_utils.dart';
 
 const String jsArrayType = 'Array';
@@ -19,3 +19,4 @@ bool isJsArray(dynamic jsObject) {
 bool isJsObject(dynamic jsObject) {
   return jsRuntimeType(jsObject) == jsObjectType;
 }
+*/

@@ -1,4 +1,4 @@
-@JS()
+/*@JS()
 library tekartik_js_utils.js_map;
 
 import 'dart:collection';
@@ -43,3 +43,4 @@ class JsMap<V> extends MapBase<String, dynamic> {
     throw 'Not implemented yet for JsMap, sorry';
   }
 }
+*/

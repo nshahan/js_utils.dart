@@ -1,4 +1,4 @@
-import 'src/js_utils/js_converter.dart' as js_converter;
+/*import 'src/js_utils/js_converter.dart' as js_converter;
 
 export 'src/js_utils/js_converter.dart'
     show jsArrayAsList, jsObjectAsCollection;
@@ -17,3 +17,4 @@ String jsObjectToDebugString(dynamic jsObject, {int depth}) {
   }
   return js_converter.jsObjectAsCollection(jsObject, depth: depth).toString();
 }
+*/

@@ -1,4 +1,4 @@
-import 'package:js/js_util.dart';
+/*import 'package:js/js_util.dart';
 import 'package:tekartik_js_utils/js_utils_import.dart';
 
 import 'js_interop.dart';
@@ -125,3 +125,4 @@ String jsRuntimeType(dynamic jsObject) {
   }
   return getProperty(constructor, 'name').toString();
 }
+*/
