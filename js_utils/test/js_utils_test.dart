@@ -1,6 +1,6 @@
-@TestOn('browser || node')
+@TestOn('browser')
 @JS()
-library tekartik_js_utils.test.js_utils_test;
+library tekartik_js_utils.test.js_utils_test_new;
 
 //import 'package:tekartik_js_utils/js_utils.dart';
 //import 'package:dev_test/test.dart';
