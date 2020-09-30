@@ -51,6 +51,7 @@ void main() {
       expect(withIntValue.value, 1);
       // print('withIntValue ${withIntValue.value}');
     });
+    /*
 
     test('type', () {
       var jsObject = jsify({'test': 'value'});
@@ -72,7 +73,7 @@ void main() {
       withIntValue.value = 1;
       expect(jsObjectAsMap(withIntValue), {'value': 1});
     });
-    /*
+
     test('jsObjectAsMapRecursive', () {
       var testDart = {'int': 1, 'string': 'text', 'null': null};
       var jsObject = jsify(testDart);
