@@ -7,8 +7,6 @@ import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 import 'package:tekartik_js_utils/js_utils.dart';
 
-import 'dart:html';
-
 @JS('Car')
 class Car {
   external Car();
@@ -43,7 +41,6 @@ void main() {
   test('dummy', () {});
 
   group('JsObject', () {
-    /*
     test('anonymous', () {
       var withIntValue = WithIntValue();
       expect(jsObjectKeys(withIntValue), []);
@@ -73,7 +70,7 @@ void main() {
       withIntValue.value = 1;
       expect(jsObjectAsMap(withIntValue), {'value': 1});
     });
-    */
+
     test('jsObjectAsMapRecursive', () {
       var testDart = {'int': 1, 'string': 'text', 'null': null};
       var jsObject = jsify(testDart);
