@@ -56,8 +56,8 @@ void main() {
     test('anonymous', () {
       expect(true, isTrue);
 
-      /*
       var withIntValue = WithIntValue();
+      /*
       //expect(jsObjectKeys(withIntValue), []);
       withIntValue.value = 1;
       //expect(jsObjectKeys(withIntValue), ['value']);
