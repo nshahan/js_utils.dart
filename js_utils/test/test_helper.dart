@@ -1,13 +1,10 @@
-@TestOn('browser')
-//@JS()
-library tekartik_js_utils.test.js_utils_test_new;
+@JS()
+library tekartik_js_utils.test.test_helper;
 
 //import 'package:tekartik_js_utils/js_utils.dart';
 //import 'package:dev_test/test.dart';
-import 'package:test/test.dart';
-
-import 'test_helper.dart';
-//import 'package:js/js.dart';
+//import 'package:test/test.dart';
+import 'package:js/js.dart';
 //import 'package:js/js_util.dart';
 
 /*
@@ -28,7 +25,7 @@ class Car {
 //external int drive(String distanceText);
 }
 */
-/*
+
 @anonymous
 @JS('WithIntValue')
 class WithIntValue {
@@ -37,7 +34,7 @@ class WithIntValue {
   external set value(int value);
 
   external factory WithIntValue({int value});
-}*/
+}
 /*
 @JS()
 @anonymous
@@ -48,7 +45,7 @@ class WithMapValue {
 
   external factory WithMapValue({WithIntValue value});
 }*/
-
+/*
 void main() {
   test('dummy', () {});
 
@@ -56,15 +53,18 @@ void main() {
     test('anonymous', () {
       expect(true, isTrue);
 
+ */
+/*
       var withIntValue = WithIntValue();
       //expect(jsObjectKeys(withIntValue), []);
       withIntValue.value = 1;
       //expect(jsObjectKeys(withIntValue), ['value']);
       expect(withIntValue.value, 1);
 
-      // print('withIntValue ${withIntValue.value}');
-    });
-    /*
+       */
+// print('withIntValue ${withIntValue.value}');
+//});
+/*
 
     test('type', () {
       var jsObject = jsify({'test': 'value'});
@@ -203,5 +203,7 @@ void main() {
     });
 
      */
+/*
   });
 }
+*/
