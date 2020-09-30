@@ -4,9 +4,9 @@ library tekartik_js_utils.test.js_utils_test_new;
 
 //import 'package:tekartik_js_utils/js_utils.dart';
 //import 'package:dev_test/test.dart';
+import 'package:tekartik_js_utils/test_helper.dart';
 import 'package:test/test.dart';
 
-import 'test_helper.dart';
 //import 'package:js/js.dart';
 //import 'package:js/js_util.dart';
 
