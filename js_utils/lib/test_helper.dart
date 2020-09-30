@@ -3,6 +3,9 @@ library tekartik_js_utils.test.test_helper;
 
 import 'package:js/js.dart';
 
+@JS('console.log')
+external dynamic consoleLog(String text);
+
 @anonymous
 @JS('WithIntValue')
 class WithIntValue {
