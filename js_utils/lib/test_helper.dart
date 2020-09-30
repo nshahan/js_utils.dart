@@ -1,5 +1,5 @@
 @JS()
-library tekartik_js_utils.test.test_helper;
+library tekartik_js_utils_lib_test_helper;
 
 import 'package:js/js.dart';
 
@@ -17,5 +17,6 @@ class WithIntValue {
 }
 
 void doStuff() {
+  // ignore: unused_local_variable
   var withIntValue = WithIntValue();
 }

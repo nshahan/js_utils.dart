@@ -1,9 +1,6 @@
 @TestOn('browser')
-//@JS()
-library tekartik_js_utils.test.js_utils_test_new;
+library tekartik_js_utils_test_js_utils_test;
 
-//import 'package:tekartik_js_utils/js_utils.dart';
-//import 'package:dev_test/test.dart';
 import 'package:tekartik_js_utils/test_helper.dart';
 import 'package:test/test.dart';
 
@@ -12,10 +9,16 @@ void main() {
 
   group('JsObject', () {
     test('anonymous', () {
-      expect(true, isTrue);
       print('Test print');
       consoleLog('Test consoleLog');
-      doStuff();
+
+      // Currently the test is failing on travis.
+      //
+      // See: https://github.com/dart-lang/sdk/issues/43589
+      //
+      // If the following line below is commented, the test compiles fine.
+
+      var withIntValue = WithIntValue(); // ignore: unused_local_variable
     });
   });
 }
