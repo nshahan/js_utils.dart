@@ -58,7 +58,7 @@ void main() {
       print('Test print');
       consoleLog('Test consoleLog');
 
-      //var withIntValue = WithIntValue();
+      var withIntValue = WithIntValue();
       /*
       //expect(jsObjectKeys(withIntValue), []);
       withIntValue.value = 1;
