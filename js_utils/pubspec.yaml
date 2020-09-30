@@ -9,15 +9,15 @@ environment:
 dependencies:
   synchronized: any
   js: any
-  tekartik_common_utils:
-    git:
-      url: git://github.com/tekartik/common_utils.dart
-      ref: dart2
-    version: '>=0.9.3+2'
-  stack_trace:
+  # tekartik_common_utils:
+  #    git:
+  #    url: git://github.com/tekartik/common_utils.dart
+  #    ref: dart2
+  #  version: '>=0.9.3+2'
+  # stack_trace:
 dev_dependencies:
   process_run: '>=0.10.0+1'
-  dev_test: any
+  # dev_test: any
   test: '>=1.2.0'
 
   build_runner: '>=1.7.0'
