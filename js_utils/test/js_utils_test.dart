@@ -3,8 +3,8 @@
 library tekartik_js_utils.test.js_utils_test;
 
 //import 'package:tekartik_js_utils/js_utils.dart';
-import 'package:dev_test/test.dart';
-//import 'package:test/test.dart';
+//import 'package:dev_test/test.dart';
+import 'package:test/test.dart';
 import 'package:js/js.dart';
 //import 'package:js/js_util.dart';
 
