@@ -2,10 +2,16 @@
 @JS()
 library tekartik_js_utils.test.js_utils_test;
 
+//import 'package:tekartik_js_utils/js_utils.dart';
 import 'package:dev_test/test.dart';
 import 'package:js/js.dart';
 import 'package:js/js_util.dart';
-import 'package:tekartik_js_utils/js_utils.dart';
+
+/*
+import 'package:dev_test/test.dart';
+import 'package:js/js.dart';
+
+
 
 import 'dart:html';
 
@@ -18,7 +24,7 @@ class Car {
   external int crash(Object distance);
 //external int drive(String distanceText);
 }
-
+*/
 @anonymous
 @JS('WithIntValue')
 class WithIntValue {
@@ -28,7 +34,7 @@ class WithIntValue {
 
   external factory WithIntValue({int value});
 }
-
+/*
 @JS()
 @anonymous
 class WithMapValue {
@@ -37,7 +43,7 @@ class WithMapValue {
   external set value(WithIntValue value);
 
   external factory WithMapValue({WithIntValue value});
-}
+}*/
 
 void main() {
   test('dummy', () {});
@@ -45,9 +51,9 @@ void main() {
   group('JsObject', () {
     test('anonymous', () {
       var withIntValue = WithIntValue();
-      expect(jsObjectKeys(withIntValue), []);
+      //expect(jsObjectKeys(withIntValue), []);
       withIntValue.value = 1;
-      expect(jsObjectKeys(withIntValue), ['value']);
+      //expect(jsObjectKeys(withIntValue), ['value']);
       expect(withIntValue.value, 1);
       // print('withIntValue ${withIntValue.value}');
     });
