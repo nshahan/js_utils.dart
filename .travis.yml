@@ -4,10 +4,6 @@ sudo: required
 addons:
   chrome: stable
 
-before_install:
-- nvm install node
-- node --version
-
 jobs:
   include:
     - stage: stable
@@ -21,9 +17,9 @@ jobs:
       dart: dev
 
 stages:
-  - stable
+  # - stable
   - beta
-  - dev
+  # - dev
 
 # Only building master means that we don't run two builds for each pull request.
 # branches:
