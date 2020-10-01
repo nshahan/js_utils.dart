@@ -6,8 +6,8 @@ import 'package:js/js.dart';
 @JS('console.log')
 external dynamic consoleLog(String text);
 
+@JS()
 @anonymous
-@JS('WithIntValue')
 class WithIntValue {
   external int get value;
 
