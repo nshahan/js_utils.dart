@@ -15,8 +15,3 @@ class WithIntValue {
 
   external factory WithIntValue({int value});
 }
-
-void doStuff() {
-  // ignore: unused_local_variable
-  var withIntValue = WithIntValue();
-}
