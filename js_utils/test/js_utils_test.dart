@@ -18,7 +18,9 @@ void main() {
       //
       // If the following line below is commented, the test compiles fine.
 
-      var withIntValue = WithIntValue(); // ignore: unused_local_variable
+      // var withIntValue = WithIntValue(); // ignore: unused_local_variable
+
+      // The line above is commented, `pub run build_runner -- -p chrome` succeeds.
     });
   });
 }
