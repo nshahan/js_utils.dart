@@ -9,18 +9,14 @@ void main() {
 
   group('JsObject', () {
     test('anonymous', () {
-      print('Test print');
-      consoleLog('Test consoleLog');
-
       // Currently the test is failing on travis.
       //
       // See: https://github.com/dart-lang/sdk/issues/43589
       //
       // If the following line below is commented, the test compiles fine.
+      // and `pub run build_runner -- -p chrome` succeeds.
 
       var withIntValue = WithIntValue(); // ignore: unused_local_variable
-
-      // The line above is commented, `pub run build_runner -- -p chrome` succeeds.
     });
   });
 }
